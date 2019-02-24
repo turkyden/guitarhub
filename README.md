@@ -8,16 +8,18 @@
 
 <summary>彩虹 周杰伦</summary>
 
-![彩虹-周杰伦0](http://data.17jita.com/attachment/portal/201504/16/124159cpekbhve9pe4h9bh.png)
-![彩虹-周杰伦1](http://data.17jita.com/attachment/portal/201504/16/124209w2m77r62faa6v74l.png)
-![彩虹-周杰伦1](http://data.17jita.com/attachment/portal/201504/16/124209w2m77r62faa6v74l.png)
+![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
+![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hcihl4hvj31fo213792.jpg)
+![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hci45jsrj31fo213tcz.jpg)
 </details>
 
 <details>
 
 <summary>平凡之路 朴树 C 调</summary>
 
-![彩虹-周杰伦](http://data.17jita.com/attachment/portal/201504/16/124159cpekbhve9pe4h9bh.png)
+![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
+![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hcihl4hvj31fo213792.jpg)
+![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hci45jsrj31fo213tcz.jpg)
 
 </details>
 
