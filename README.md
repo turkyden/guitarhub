@@ -49,6 +49,12 @@
 
 ## :musical_keyboard: 和弦
 
+### :musical_note: C 和弦
+
+### :musical_note: Dm7 和弦
+
+### :musical_note: F 和弦
+
 ## :guitar: 店铺
 
 厂家直销，帮你挑选最适合的吉他。
