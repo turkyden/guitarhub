@@ -18,13 +18,13 @@
 ## :headphones: Solo
 
 - [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://h5.weishi.qq.com/weishi/feed/76uaFJd3u1H05cYJ0/wsfeed?_proxy=1&_wv=1&wxplay=1&id=76uaFJd3u1H05cYJ0&spid=1551224211732084&reqseq=743387594&cover=http%3A%2F%2Fpic640.weishi.qq.com%2Fdf1ef3aa0fd64feeb72db40e2c75cover.jpg&bgSize=cover&image=1ef3aa0fd64feeb72db40e2c75cover.&pkg=3670&attach=cp_reserves3_4001)
-- [ ] [《如果有来生》高晓松穿着透明的衣服，为我一个人唱歌]()
-- [ ] [《一生中最爱》俊采带你快速上手第一首经典粤语歌]()
-- [ ] [《浪子回头》闽南语 Cover 台湾茄子蛋乐队 2018 最热单曲]()
-- [ ] [《奔跑》站着弹唱才是最 High ]()
-- [ ] [《Yong for you》如何快速突破第一首英文歌？]()
-- [ ] [《情非得已》百搭的和弦编配，学会这个你可以应付百分之 60 %的流行歌]()
-- [ ] [《你一定要幸福》]()
+- [ ] 《如果有来生》高晓松穿着透明的衣服，为我一个人唱歌
+- [ ] 《一生中最爱》俊采带你快速上手第一首经典粤语歌
+- [ ] 《浪子回头》闽南语 Cover 台湾茄子蛋乐队 2018 最热单曲
+- [ ] 《奔跑》站着弹唱才是最 High
+- [ ] 《Yong for you》如何快速突破第一首英文歌？
+- [ ] 《情非得已》百搭的和弦编配，学会这个你可以应付百分之 60 %的流行歌()
+- [ ] 《你一定要幸福》
 
 ## :musical_score: 曲谱
 
