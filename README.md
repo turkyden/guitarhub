@@ -1,6 +1,19 @@
-# GuitarHub
+<p align="center">
+  <a href="https://gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  GuitarHub
+</h1>
 
-这也许是中国程序员最好的吉他曲谱资源分享。
+<h3 align="center">
+  ⚛️ 📄 :rocket:
+</h3>
+<p align="center">
+  <strong>这也许是中国程序员最好的吉他曲谱资源分享</strong><br>
+  Go beyond static sites: build blogs, e-commerce sites, full-blown apps, and more with Gatsby.
+</p>
 
 ## Solo
 
