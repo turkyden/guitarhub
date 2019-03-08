@@ -56,7 +56,7 @@
 
 ### 1. Frets 音阶图表
 
-一款使用 react v16 开发的音阶图表，帮助你快速熟悉各个音品。 [Demo](https://leopoldthecoder.github.io/frets/) | [源码地址](https://github.com/Leopoldthecoder/frets)
+一款使用 ⚛️ react v16 开发的音阶图表，帮助你快速熟悉各个音品。 [Demo](https://leopoldthecoder.github.io/frets/) | [源码地址](https://github.com/Leopoldthecoder/frets)
 
 ![吉他音阶](https://user-images.githubusercontent.com/10095631/42567909-ed374ed0-853d-11e8-8755-da21a92f82cd.gif)
 
