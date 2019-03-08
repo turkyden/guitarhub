@@ -12,7 +12,7 @@
 </h3>
 <p align="center">
   <strong>这也许是中国程序员最好的吉他曲谱资源分享</strong><br>
-  Go beyond static sites: build blogs, e-commerce sites, full-blown apps, and more with Gatsby.
+  This may be the best guitar music resource sharing platform for Chinese programmers
 </p>
 
 ## :headphones: Solo
@@ -52,6 +52,14 @@
 
 征集中，欢迎 `PR` :nerd_face:
 
+## :electric_plug: 插件
+
+### Frets 音阶图表
+
+[Demo](https://leopoldthecoder.github.io/frets/) | [源码地址](https://github.com/Leopoldthecoder/frets)
+
+![吉他音阶](https://user-images.githubusercontent.com/10095631/42567909-ed374ed0-853d-11e8-8755-da21a92f82cd.gif)
+
 ## :musical_keyboard: 和弦
 
 ### :musical_note: C 和弦
@@ -66,5 +74,5 @@
 
 | 品牌 | 报价 | 推荐 | 链接 |
 | ---- | ------- | ----- | -----: |
-| 雅马哈 | :star: :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
-| 卡玛 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
+| 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
+| 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
