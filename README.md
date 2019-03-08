@@ -50,6 +50,8 @@
 
 </details>
 
+征集中，欢迎 `PR` :nerd_face:
+
 ## :musical_keyboard: 和弦
 
 ### :musical_note: C 和弦
@@ -61,3 +63,8 @@
 ## :guitar: 店铺
 
 厂家直销，帮你挑选最适合的吉他。
+
+| 品牌 | 报价 | 推荐 | 链接 |
+| ---- | ------- | ----- | -----: |
+| 雅马哈 | :star: :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
+| 卡玛 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
