@@ -11,7 +11,7 @@
   ⚛️ 📄 :rocket:
 </h3>
 <p align="center">
-  <strong>这也许是中国程序员最好的吉他曲谱资源分享</strong><br>
+  <strong>这也许是中国程序员最喜欢的吉他曲谱资源分享</strong><br>
   This may be the best guitar music resource sharing platform for Chinese programmers
 </p>
 
