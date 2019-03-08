@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gatsbyjs.org">
-    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0vd5m7msoj30xc0xc40a.jpg" width="400"/>
+    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0vd5m7msoj30xc0xc40a.jpg" width="200"/>
   </a>
 </p>
 <h1 align="center">
