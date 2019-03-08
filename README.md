@@ -56,9 +56,25 @@
 
 ### 1. Frets 音阶图表
 
-一款使用 ⚛️ react v16 开发的音阶图表，帮助你快速熟悉各个音品。 [Demo](https://leopoldthecoder.github.io/frets/) | [源码地址](https://github.com/Leopoldthecoder/frets)
+一款使用 ⚛️ react v16 开发的音阶图表，帮助你快速熟悉各个音品。 [试一试](https://leopoldthecoder.github.io/frets/) | [贡献源码](https://github.com/Leopoldthecoder/frets)
 
 ![吉他音阶](https://user-images.githubusercontent.com/10095631/42567909-ed374ed0-853d-11e8-8755-da21a92f82cd.gif)
+
+### 2. GuitarChord 吉他和弦推导算法
+
+一款帮你理解基本乐理知识和推导和弦的小工具，基于 ⚛️ react v16 开发。 [试一试](https://youngdro.github.io/guitarChord/index.html) | [贡献源码](https://github.com/youngdro/guitarChord)
+
+![二维码](http://ww1.sinaimg.cn/thumbnail/006g8Dvggy1g0vhalh5nmj30ac0ab0si.jpg)
+
+### 3. GuitarChord.js 吉他和弦绘图库
+
+[传送门]()
+
+### 4. jQuery-Chord-Transposer 吉他和弦简谱编写器
+
+Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一试](https://jquery-chord-transposer.now.sh/) | [贡献源码](https://github.com/guitar-hub/jQuery-Chord-Transposer)
+
+![](http://ww1.sinaimg.cn/mw690/006g8Dvggy1g0vhstjuk8j30ft07nwef.jpg)
 
 ## :musical_keyboard: 和弦
 
