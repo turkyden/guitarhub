@@ -17,8 +17,10 @@
 
 ## :headphones: Solo
 
-- [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://h5.weishi.qq.com/weishi/feed/76uaFJd3u1H05cYJ0/wsfeed?_proxy=1&_wv=1&wxplay=1&id=76uaFJd3u1H05cYJ0&spid=1551224211732084&reqseq=743387594&cover=http%3A%2F%2Fpic640.weishi.qq.com%2Fdf1ef3aa0fd64feeb72db40e2c75cover.jpg&bgSize=cover&image=1ef3aa0fd64feeb72db40e2c75cover.&pkg=3670&attach=cp_reserves3_4001)
-- [ ] 《如果有来生》高晓松穿着透明的衣服，为我一个人唱歌
+教学视频发布在 **网易云音乐噢**
+
+- [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
+- [x] [《如果有来生》俊采教你玩吉他，孤独的岁月里学会自嗨！](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
 - [ ] 《一生中最爱》俊采带你快速上手第一首经典粤语歌
 - [ ] 《浪子回头》闽南语 Cover 台湾茄子蛋乐队 2018 最热单曲
 - [ ] 《奔跑》站着弹唱才是最 High
@@ -30,7 +32,7 @@
 
 <details>
 
-<summary>彩虹 周杰伦</summary>
+<summary>《彩虹》周杰伦</summary>
 
 ![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
 **[⬆ 返回顶部](#musical_score-曲谱)**
@@ -42,11 +44,11 @@
 
 <details>
 
-<summary>平凡之路 朴树 C 调</summary>
+<summary>《晴天》周杰伦</summary>
 
-![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
-![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hcihl4hvj31fo213792.jpg)
-![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hci45jsrj31fo213tcz.jpg)
+![晴天-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5n2qltwj31fo213q72.jpg)
+![晴天-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5nmx13dj31fo213jw2.jpg)
+![晴天-周杰伦2](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5qq08u6j31fo21378g.jpg)
 
 </details>
 
