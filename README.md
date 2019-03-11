@@ -1,12 +1,11 @@
 <p align="center">
   <a href="https://gatsbyjs.org">
-    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0vdefpiebj30es0idjs9.jpg" width="200"/>
+    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0z649oxkaj30p007swet.jpg" />
   </a>
 </p>
-<h1 align="center">
-  <!-- GuitarHub -->
-</h1>
-
+<!-- <h1 align="center">
+  GuitarHub
+</h1> -->
 <h3 align="center">
   ⚛️ 📄 :rocket:
 </h3>
@@ -15,7 +14,7 @@
   This may be Programmer's favorite Chinese music score resource sharing platform
 </p>
 
-## :headphones: Solo
+## :headphones: 教学
 
 教学视频发布在 **网易云音乐噢**
 
