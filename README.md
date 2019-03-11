@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://gatsbyjs.org">
-    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0tgezqtemj30af04raaf.jpg" width="400"/>
+    <img alt="GuitarHub" src="http://ww1.sinaimg.cn/large/006g8Dvggy1g0vdefpiebj30es0idjs9.jpg" width="200"/>
   </a>
 </p>
 <h1 align="center">
@@ -11,8 +11,8 @@
   ⚛️ 📄 :rocket:
 </h3>
 <p align="center">
-  <strong>这也许是中国程序员最好的吉他曲谱资源分享</strong><br>
-  Go beyond static sites: build blogs, e-commerce sites, full-blown apps, and more with Gatsby.
+  <strong>这也许是程序员最喜欢的中文曲谱资源分享平台</strong><br>
+  This may be Programmer's favorite Chinese music score resource sharing platform
 </p>
 
 ## :headphones: Solo
@@ -52,6 +52,32 @@
 
 </details>
 
+征集中，欢迎 `PR` :nerd_face:
+
+## :electric_plug: 插件
+
+### 1. Frets 音阶图表
+
+一款使用 ⚛️ react v16 开发的音阶图表，帮助你快速熟悉各个音品。 [试一试](https://leopoldthecoder.github.io/frets/) | [贡献源码](https://github.com/Leopoldthecoder/frets)
+
+![吉他音阶](https://user-images.githubusercontent.com/10095631/42567909-ed374ed0-853d-11e8-8755-da21a92f82cd.gif)
+
+### 2. GuitarChord 吉他和弦推导算法
+
+一款帮你理解基本乐理知识和推导和弦的小工具，基于 ⚛️ react v16 开发。 [试一试](https://youngdro.github.io/guitarChord/index.html) | [贡献源码](https://github.com/youngdro/guitarChord)
+
+![二维码](http://ww1.sinaimg.cn/thumbnail/006g8Dvggy1g0vhalh5nmj30ac0ab0si.jpg)
+
+### 3. GuitarChord.js 吉他和弦绘图库
+
+[传送门]()
+
+### 4. jQuery-Chord-Transposer 吉他和弦简谱编写器
+
+Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一试](https://jquery-chord-transposer.now.sh/) | [贡献源码](https://github.com/guitar-hub/jQuery-Chord-Transposer)
+
+![](http://ww1.sinaimg.cn/mw690/006g8Dvggy1g0vhstjuk8j30ft07nwef.jpg)
+
 ## :musical_keyboard: 和弦
 
 ### :musical_note: C 和弦
@@ -63,3 +89,8 @@
 ## :guitar: 店铺
 
 厂家直销，帮你挑选最适合的吉他。
+
+| 品牌 | 报价 | 推荐 | 链接 |
+| ---- | ------- | ----- | -----: |
+| 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
+| 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
