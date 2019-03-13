@@ -93,3 +93,14 @@ Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一�
 | ---- | ------- | ----- | -----: |
 | 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 | 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
+
+## :plan: 计划
+
+- 使用最先进的 web 技术
+- SEO 良好，迅速百度排名靠前
+- 单页应用，Markdown 编辑
+- 移动端看谱
+- 小程序看谱
+- 夜间模式 Panda
+- 曲谱快速打印
+- 爬虫爬取海量海量曲谱资源
