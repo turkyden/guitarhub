@@ -11,6 +11,8 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
+        display: 'flex',
+        justifyContent: 'space-between',
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
@@ -27,6 +29,13 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <div>
+        <ul style={{ display: 'flex', justifyContent: 'space-between', listStyle: 'none', margin: 0 }}>
+          <li><Link to="/chords/" style={{ color: '#fff', textDecoration: 'none' }}>Chords</Link></li>
+          <li><Link to="/songs/" style={{ color: '#fff', textDecoration: 'none' }}>Songs</Link></li>
+          <li>menu3</li>
+        </ul>
+      </div>
     </div>
   </header>
 )

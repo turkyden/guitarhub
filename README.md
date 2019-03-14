@@ -104,3 +104,5 @@ Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一�
 - 夜间模式 Panda
 - 曲谱快速打印
 - 爬虫爬取海量海量曲谱资源
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e5131ae-d190-41b7-b8d9-a879575487f3/deploy-status)](https://app.netlify.com/sites/guitar-hub/deploys)
