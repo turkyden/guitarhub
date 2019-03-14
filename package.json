@@ -2,7 +2,7 @@
   "name": "guitar-hub",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "DengJu Deng <wj871287@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.23",
