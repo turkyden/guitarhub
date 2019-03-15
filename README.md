@@ -33,13 +33,25 @@
 
 <details>
 
+<summary>《光辉岁月》Beyond</summary>
+
+![光辉岁月-Beyond0](http://ww1.sinaimg.cn/large/006g8Dvggy1g13ogfvq4rj31dl1y5435.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+![光辉岁月-Beyond1](http://ww1.sinaimg.cn/large/006g8Dvggy1g13ogt80vej31dl1y5af0.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+![光辉岁月-Beyond2](http://ww1.sinaimg.cn/large/006g8Dvggy1g13oh9flsuj31dl1y5799.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+</details>
+
+<details>
+
 <summary>《彩虹》周杰伦</summary>
 
 ![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
 **[⬆ 返回顶部](#musical_score-曲谱)**
 ![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hcihl4hvj31fo213792.jpg)
 **[⬆ 返回顶部](#musical_score-曲谱)**
-![彩虹-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hci45jsrj31fo213tcz.jpg)
+![彩虹-周杰伦2](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hci45jsrj31fo213tcz.jpg)
 **[⬆ 返回顶部](#musical_score-曲谱)**
 </details>
 
