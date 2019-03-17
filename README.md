@@ -112,15 +112,27 @@ Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一�
 | 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 | 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 
-## :plan: 计划
+## :coffee: 计划
 
-- 使用最先进的 web 技术
-- SEO 良好，迅速百度排名靠前
+- 使用最先进的 web 技术，Gatzby + React + GraphQL
+- SEO 良好，百度,谷歌排名靠前
 - 单页应用，Markdown 编辑
-- 移动端看谱
-- 小程序看谱
-- 夜间模式 Panda
-- 曲谱快速打印
+- 移动端小程序看谱
+- 夜间模式 Panda，曲谱快速编写与打印
 - 爬虫爬取海量海量曲谱资源
+
+## :: 非洲鼓
+
+- X => 低音
+- 0 => 高音
+- ~ => 切音
+
+Type1: [ X 0 | XX 0 ][ R R | RL R ]
+
+Type2: [ X 0 | XX 00 ][ R R | RR RL ]
+
+Type3: [ X 0 | XX 000 ][ R R | RR RLR ]
+
+Type4: [ X ~ | XX ~00 ][ R R | RR RLR ]
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2e5131ae-d190-41b7-b8d9-a879575487f3/deploy-status)](https://app.netlify.com/sites/guitar-hub/deploys)
