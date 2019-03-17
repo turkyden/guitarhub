@@ -19,7 +19,8 @@
 教学视频发布在 **网易云音乐噢**
 
 - [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
-- [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨！](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
+- [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
+- [x] [《胆小鬼》俊采教你玩吉他，梁咏琪经典老歌，暖暖的春天要来了](https://music.163.com/#/video?id=571217DC959AFC861EF153D9C6321978)
 - [ ] 《一生中最爱》俊采带你快速上手第一首经典粤语歌
 - [ ] 《浪子回头》闽南语 Cover 台湾茄子蛋乐队 2018 最热单曲
 - [ ] 《奔跑》站着弹唱才是最 High
@@ -32,7 +33,6 @@
 曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` :nerd_face:
 
 <details>
-
 <summary>《光辉岁月》Beyond</summary>
 
 ![光辉岁月-Beyond0](http://ww1.sinaimg.cn/large/006g8Dvggy1g13ogfvq4rj31dl1y5435.jpg)
@@ -44,7 +44,15 @@
 </details>
 
 <details>
+<summary>《真的爱你》Beyond</summary>
 
+![真的爱你-Beyond0](http://ww1.sinaimg.cn/large/006g8Dvggy1g15n5ikhacj31fo213439.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+![真的爱你-Beyond1](http://ww1.sinaimg.cn/large/006g8Dvggy1g15n5zm8jwj31fo213gpz.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+</details>
+
+<details>
 <summary>《彩虹》周杰伦</summary>
 
 ![彩虹-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0hch7kkczj31fo213wis.jpg)
@@ -56,13 +64,11 @@
 </details>
 
 <details>
-
 <summary>《晴天》周杰伦</summary>
 
 ![晴天-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5n2qltwj31fo213q72.jpg)
 ![晴天-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5nmx13dj31fo213jw2.jpg)
 ![晴天-周杰伦2](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5qq08u6j31fo21378g.jpg)
-
 </details>
 
 ## :electric_plug: 插件
