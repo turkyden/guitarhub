@@ -71,6 +71,14 @@
 ![晴天-周杰伦2](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5qq08u6j31fo21378g.jpg)
 </details>
 
+<details>
+<summary>《夜空中最亮的星》逃跑计划</summary>
+
+![夜空中最亮的星-逃跑计划0](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9na3xx7j31fo21378r.jpg)
+![夜空中最亮的星-逃跑计划1](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9p1mm4fj31fo21342x.jpg)
+![夜空中最亮的星-逃跑计划2](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9plcyhvj31fo2130wz.jpg)
+</details>
+
 ## :electric_plug: 插件
 
 ### 1. Frets 音阶图表
