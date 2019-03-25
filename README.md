@@ -67,7 +67,9 @@
 <summary>《晴天》周杰伦</summary>
 
 ![晴天-周杰伦0](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5n2qltwj31fo213q72.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
 ![晴天-周杰伦1](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5nmx13dj31fo213jw2.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
 ![晴天-周杰伦2](http://ww1.sinaimg.cn/large/006g8Dvggy1g0z5qq08u6j31fo21378g.jpg)
 </details>
 
@@ -75,7 +77,9 @@
 <summary>《夜空中最亮的星》逃跑计划</summary>
 
 ![夜空中最亮的星-逃跑计划0](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9na3xx7j31fo21378r.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
 ![夜空中最亮的星-逃跑计划1](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9p1mm4fj31fo21342x.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
 ![夜空中最亮的星-逃跑计划2](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9plcyhvj31fo2130wz.jpg)
 </details>
 
