@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "author": "DengJu Deng <wj871287@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.2.8",
+    "gatsby": "^2.2.12",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-manifest": "^2.0.22",
@@ -28,6 +28,7 @@
     "react-helmet": "^5.2.0",
     "react-scroll": "^1.7.11",
     "react-typography": "^0.16.19",
+    "sharp": "^0.22.0",
     "typography": "^0.16.19",
     "typography-theme-irving": "^0.16.19"
   },
