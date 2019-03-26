@@ -3,10 +3,7 @@ import 'gitalk/dist/gitalk.css'
 import Gitalk from 'gitalk'
 
 class Comment extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
+  
   componentDidMount() {
     const gitalk = new Gitalk({
       clientID: '5d584e1b0f66442d84a0',
