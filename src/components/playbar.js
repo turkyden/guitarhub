@@ -4,7 +4,8 @@ import Tooltip from 'rc-tooltip';
 import Scroll from "react-scroll"
 import "rc-slider/assets/index.css"
 
-const Handle = Slider.Handle
+const Handle = Slider.Handle;
+
 const handle = (props) => {
   const { value, dragging, index, ...restProps } = props;
   return (
