@@ -25,7 +25,8 @@ class PlayBar extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      value: 200
+      value: 300,
+      isScrolling: true
     }
   }
   hanldeChange(value) {
@@ -38,23 +39,29 @@ class PlayBar extends React.Component {
       smooth: 'linear'
     })
   }
+  scrollStyle() {
+    return {
+      padding: `2rem`,
+      background: `#ffffff`,
+      boxShadow: this.state.isScrolling ? `0 1px 2px rgba(0,0,0,0.1)` : `none`
+    }
+  }
   render() {
-    const { value } = this.state;
     const { children } = this.props;
     return (
-      <div>
+      <div style={ this.scrollStyle() }>
         {children}
         <div style={{ position: 'fixed', bottom: 40, right: 100, width: 60, height: 200 }} onClick={ this.hanldeSroll.bind(this) }>
           <Slider 
             vertical 
-            min={100}
-            max={300}
+            min={200}
+            max={500}
             trackStyle={{ background: '#ccc' }} 
             railStyle={{ background: '#000' }} 
             handleStyle={{ borderColor: '#000' }} 
             activeDotStyle={{ borderColor: '#000', boxShadow: `0 0 0 5px #96dbfa` }} 
-            value={value} 
-            onChange={ value => this.hanldeChange(value) } 
+            defaultValue={300}
+            onChange={ v => this.hanldeChange(v) } 
             handle={handle} 
           />
         </div>

@@ -2,7 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import PlayBar from "../components/playBar.js"
+import PlayBar from "../components/playBar"
+import Comment from "../components/comment"
 
 export default function SongTemplate({ data }) {
   const { markdownRemark } = data;
@@ -15,6 +16,7 @@ export default function SongTemplate({ data }) {
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </PlayBar>
+      <Comment/>
     </Layout>
   )
 }

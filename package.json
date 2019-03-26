@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "author": "DengJu Deng <wj871287@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.2.12",
+    "gatsby": "^2.2.8",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-manifest": "^2.0.22",
     "gatsby-plugin-offline": "^2.0.24",
     "gatsby-plugin-react-helmet": "^3.0.8",
-    "gatsby-plugin-sharp": "^2.0.31",
+    "gatsby-plugin-sharp": "^2.0.30",
     "gatsby-plugin-typography": "^2.2.10",
     "gatsby-remark-responsive-iframe": "^2.1.1",
     "gatsby-source-filesystem": "^2.0.23",
@@ -28,7 +28,6 @@
     "react-helmet": "^5.2.0",
     "react-scroll": "^1.7.11",
     "react-typography": "^0.16.19",
-    "sharp": "^0.22.0",
     "typography": "^0.16.19",
     "typography-theme-irving": "^0.16.19"
   },
