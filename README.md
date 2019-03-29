@@ -7,14 +7,14 @@
   GuitarHub
 </h1> -->
 <h3 align="center">
-  ⚛️ 📄 :rocket:
+  ⚛️ 📄 🚀
 </h3>
 <p align="center">
   <strong>这也许是程序员最喜欢的中文曲谱资源分享平台</strong><br>
   This may be Programmer's favorite Chinese music score resource sharing platform
 </p>
 
-## :headphones: 教学
+## 🎧 教学
 
 教学视频发布在 **网易云音乐噢**
 
@@ -28,9 +28,9 @@
 - [ ] 《情非得已》百搭的和弦编配，学会这个你可以应付百分之 60 %的流行歌()
 - [ ] 《你一定要幸福》
 
-## :musical_score: 曲谱
+## 🎼 曲谱
 
-曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` :nerd_face:
+曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` 🤓
 
 <details>
 <summary>《光辉岁月》Beyond</summary>
@@ -83,7 +83,7 @@
 ![夜空中最亮的星-逃跑计划2](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9plcyhvj31fo2130wz.jpg)
 </details>
 
-## :electric_plug: 插件
+## 🔌 插件
 
 ### 1. Frets 音阶图表
 
@@ -97,54 +97,44 @@
 
 ![二维码](http://ww1.sinaimg.cn/thumbnail/006g8Dvggy1g0vhalh5nmj30ac0ab0si.jpg)
 
-### 3. GuitarChord.js 吉他和弦绘图库
+### 3. GuitarChord.js 吉他和弦绘图库 [试一试]()
 
-[传送门]()
+## 🎹 和弦
 
-### 4. jQuery-Chord-Transposer 吉他和弦简谱编写器
+- [ ] C
+- [ ] Fm
 
-Jquery 时代爷爷级的老程序猿写的吉他简谱编辑插件。  [试一试](https://jquery-chord-transposer.now.sh/) | [贡献源码](https://github.com/guitar-hub/jQuery-Chord-Transposer)
+## 📃 计划
 
-![](http://ww1.sinaimg.cn/mw690/006g8Dvggy1g0vhstjuk8j30ft07nwef.jpg)
+- [x] 搭建博客小站：使用最先进的 web 技术，`Gatzby` + `React` + `GraphQL`
+- [ ] SEO 良好，百度，谷歌排名靠前，社群推广，运营
+- [ ] Markdown 曲谱编辑工具，夜间模式 `Panda`，曲谱快速编写与打印
+- [ ] 支持移动端 H5微信小程序看谱，`TaroJS` 一套代码生成多端应用
+- [ ] 分布式爬虫爬取海量海量中文曲谱资源，`Node.js`
 
-## :musical_keyboard: 和弦
+## 🥁 非洲鼓
 
-### :musical_note: C 和弦
+X => 低音
 
-### :musical_note: Dm7 和弦
+0 => 高音
 
-### :musical_note: F 和弦
+~ => 切音
 
-## :guitar: 店铺
+节奏型: [ X 0 | XX 0 ] [ R R | RL R ]
 
-厂家直销，帮你挑选最适合的吉他。
+节奏型: [ X 0 | XX 00 ] [ R R | RR RL ]
+
+节奏型: [ X 0 | XX 000 ] [ R R | RR RLR ]
+
+节奏型: [ X ~ | XX ~00 ] [ R R | RR RLR ]
+
+## 🎸 店铺
+
+帮你挑选一把陪伴你度过漫长岁月的吉他。
 
 | 品牌 | 报价 | 推荐 | 链接 |
 | ---- | ------- | ----- | -----: |
 | 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 | 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
-
-## :coffee: 计划
-
-- 使用最先进的 web 技术，Gatzby + React + GraphQL
-- SEO 良好，百度,谷歌排名靠前
-- 单页应用，Markdown 编辑
-- 移动端小程序看谱
-- 夜间模式 Panda，曲谱快速编写与打印
-- 爬虫爬取海量海量曲谱资源
-
-## :: 非洲鼓
-
-- X => 低音
-- 0 => 高音
-- ~ => 切音
-
-Type1: [ X 0 | XX 0 ][ R R | RL R ]
-
-Type2: [ X 0 | XX 00 ][ R R | RR RL ]
-
-Type3: [ X 0 | XX 000 ][ R R | RR RLR ]
-
-Type4: [ X ~ | XX ~00 ][ R R | RR RLR ]
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2e5131ae-d190-41b7-b8d9-a879575487f3/deploy-status)](https://app.netlify.com/sites/guitar-hub/deploys)
