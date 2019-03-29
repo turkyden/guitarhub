@@ -14,6 +14,8 @@
   This may be Programmer's favorite Chinese music score resource sharing platform
 </p>
 
+![GitHub stars](https://img.shields.io/github/stars/guitar-hub/guitar-hub.svg?style=social)
+
 ## 🎧 教学
 
 教学视频发布在 **网易云音乐噢**
