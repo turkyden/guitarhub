@@ -7,7 +7,7 @@ class Comment extends React.Component {
   }
 
   componentDidMount() {
-    const { issue } = this.props;
+    const { issue, title } = this.props;
     const gitalk = new Gitalk({
       clientID: '5d584e1b0f66442d84a0',
       clientSecret: '0db8efee16b70069c9b68e6033b620ae6e28a207',
@@ -15,8 +15,9 @@ class Comment extends React.Component {
       owner: 'guitar-hub',
       admin: ['Turkyden'],
       id: window.location.pathname,
+      title: title,
       number: issue,
-      distractionFreeMode: false
+      distractionFreeMode: true
     })
     gitalk.render('gitalk-container')
   }

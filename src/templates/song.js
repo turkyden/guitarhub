@@ -15,7 +15,7 @@ export default function SongTemplate({ data }) {
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       )}/>
-      <Comment issue={frontmatter.issue}/>
+      <Comment issue={frontmatter.issue} title={frontmatter.title}/>
     </Layout>
   )
 }
