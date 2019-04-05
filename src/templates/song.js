@@ -11,11 +11,11 @@ export default function SongTemplate({ data }) {
   return (
     <Layout>
       <SEO title="guitar chords" />
-      <PlayBar>
+      <PlayBar children={(
         <div className="blog-post-container">
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
-      </PlayBar>
+      )}/>
       <Comment/>
     </Layout>
   )
