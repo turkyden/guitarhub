@@ -6,8 +6,7 @@ import PlayBar from "../components/playBar"
 import Comment from "../components/comment"
 
 export default function SongTemplate({ data }) {
-  const { markdownRemark } = data;
-  const { html } = markdownRemark;
+  const { html, frontmatter } = data.markdownRemark;
   return (
     <Layout>
       <SEO title="guitar chords" />
@@ -16,7 +15,7 @@ export default function SongTemplate({ data }) {
           <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       )}/>
-      <Comment/>
+      <Comment issue={frontmatter.issue}/>
     </Layout>
   )
 }
@@ -29,6 +28,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        issue
       }
     }
   }

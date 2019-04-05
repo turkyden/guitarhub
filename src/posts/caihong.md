@@ -2,6 +2,7 @@
 path: "/songs/caihong"
 title: "彩虹-周杰伦"
 date: "2019-12-10"
+issue: 2
 ---
 
 <!-- <div style="width: 100%; text-align: center">

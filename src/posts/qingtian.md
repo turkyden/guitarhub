@@ -2,6 +2,7 @@
 path: "/songs/qingtian"
 title: "晴天-周杰伦"
 date: "2019-12-10"
+issue: 1
 ---
 
 <!-- <div style="width: 100%; text-align: center">
