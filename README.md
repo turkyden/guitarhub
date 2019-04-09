@@ -18,7 +18,7 @@
 
 ## 🎧 教学
 
-教学视频发布在 **网易云音乐噢**
+教学视频合辑定期同步在 **网易云音乐噢** 和 **Youtube**
 
 - [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
 - [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
@@ -28,7 +28,8 @@
 - [ ] 《奔跑》站着弹唱才是最 High
 - [ ] 《Yong for you》如何快速突破第一首英文歌？
 - [ ] 《情非得已》百搭的和弦编配，学会这个你可以应付百分之 60 %的流行歌()
-- [ ] 《你一定要幸福》
+- [ ] 《你一定要幸福》 胖虎
+- [ ] 《小情歌》 苏打绿
 
 ## 🎼 曲谱
 
@@ -83,6 +84,16 @@
 ![夜空中最亮的星-逃跑计划1](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9p1mm4fj31fo21342x.jpg)
 **[⬆ 返回顶部](#musical_score-曲谱)**
 ![夜空中最亮的星-逃跑计划2](http://ww1.sinaimg.cn/large/006g8Dvggy1g1e9plcyhvj31fo2130wz.jpg)
+</details>
+
+<details>
+<summary>《小情歌》苏打绿</summary>
+
+![小情歌-苏打绿0](http://ww1.sinaimg.cn/large/006g8Dvggy1g1ws7hdfs9j31fo21342o.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+![小情歌-苏打绿1](http://ww1.sinaimg.cn/large/006g8Dvgly1g1ws8t5lq9j31fo2130x2.jpg)
+**[⬆ 返回顶部](#musical_score-曲谱)**
+![小情歌-苏打绿2](http://ww1.sinaimg.cn/large/006g8Dvggy1g1ws95blcdj31fo213n0w.jpg)
 </details>
 
 ## 🔌 插件
