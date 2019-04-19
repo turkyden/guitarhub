@@ -24,7 +24,7 @@
 
 教学视频合辑定期同步在 **网易云音乐噢** 和 **Youtube**
 
-- [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
+- [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F){:target="_blank"}
 - [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
 - [x] [《胆小鬼》俊采教你玩吉他，梁咏琪经典老歌，暖暖的春天要来了](https://music.163.com/#/video?id=571217DC959AFC861EF153D9C6321978)
 - [ ] 《一生中最爱》俊采带你快速上手第一首经典粤语歌
