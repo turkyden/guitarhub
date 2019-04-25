@@ -25,7 +25,7 @@ const transformImage = async () => {
   const BLANL_RIGHT = await generateBlank(400, 240);
   const BLANL_BOTTOM = await generateBlank(1860, 140);
   sharp('sharp.jpg')
-    .threshold(128)
+    .threshold(210)
     .composite([{
       input: BLANL_LEFT,
       top: 0,
