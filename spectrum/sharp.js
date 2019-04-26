@@ -20,7 +20,7 @@ const generateBlank = (width, height) =>
 /**
  * 函数-合成图片
  */ 
-const transformImage = async () => {
+const sharpImages = async () => {
   const BLANL_LEFT = await generateBlank(600, 200);
   const BLANL_RIGHT = await generateBlank(400, 240);
   const BLANL_BOTTOM = await generateBlank(1860, 140);
@@ -44,4 +44,4 @@ const transformImage = async () => {
     });
 }
 
-transformImage();
+module.exports = sharpImages;

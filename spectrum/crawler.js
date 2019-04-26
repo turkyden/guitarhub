@@ -7,7 +7,8 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 /**
- * 发起请求加载页面
+ * 函数-发起请求加载页面
+ * @param {String} url 
  */
 const fetchDocument = url => 
   new Promise((resolve, reject) => {
@@ -41,10 +42,10 @@ const fetchDocument = url =>
   })
 
 /**
- * 函数-从网页中清洗出曲谱
+ * 函数-从网页中清洗出图片信息
  * @param {String} html 网页字符串
  */
-const getImgUrlFromHTML = html => {
+const filterImgUrl = html => {
   let imgs = new Array();
   new JSDOM(html).window.document.querySelectorAll('#article_contents img')
     .forEach(img =>
@@ -57,15 +58,60 @@ const getImgUrlFromHTML = html => {
   return imgs;
 }
 
+/**
+ * 函数-从网页中清洗出曲谱地址合集
+ * @param {String} html 网页字符串
+ */
+const filterSongsList = html => {
+  let songs = new Array();
+  new JSDOM(html).window.document.querySelectorAll('#article_contents li')
+    .forEach(song => 
+      songs.push({
+        name: song.textContent,
+        url: song.href
+      })
+    )
+  return songs;
+}
 
-const URL = 'http://www.17jita.com/tab/whole_3991.html'
+/**
+ * 爬取-Top100 曲谱集合并存储至指定文件夹
+ * @param {String} url 
+ */
+const crawlerTop100 = async url => {
+  const html = await fetchDocument(url);
+  const songs = filterSongsList(html);
+  songs.forEach(song => {
+    await crawlerSong(song.name, song.url)
+  })
+  debugger
+}
 
-fetchDocument(URL)
-  .then(html => {
-    const imgs = getImgUrlFromHTML(html);
-    console.log('图片爬取成功：', imgs);
-    debugger
+/**
+ * 爬取-指定曲谱所有图片并存储至指定文件夹
+ * @param {String} name 
+ * @param {String} url 
+ */
+const crawlerSong = async (name, url) => {
+  const html = await fetchDocument(url);
+  const imgs = filterImgUrl(html);
+  const baseUrl = `./spectrum/${name}`;
+  if(!fs.existsSync(baseUrl)) {
+    fs.mkdirSync(baseUrl);
+  }
+  imgs.forEach((img, index) => {
+    request.head(img.url, (error, res, body) => {
+      if(error){
+        console.log('失败了')
+      }
+    });
+    request(img.url).pipe(fs.createWriteStream(`${baseUrl}/${img.name}_${index}.jpg`))
   })
-  .catch(error => {
-    console.log(error)
-  })
+}
+
+
+module.exports = {
+  crawlerSong,
+  crawlerTop100
+};
+
