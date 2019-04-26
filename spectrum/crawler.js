@@ -64,13 +64,16 @@ const filterImgUrl = html => {
  */
 const filterSongsList = html => {
   let songs = new Array();
-  new JSDOM(html).window.document.querySelectorAll('#article_contents li')
-    .forEach(song => 
+  new JSDOM(html).window.document.querySelectorAll('#article_content ul li')
+    .forEach(li => {
+      const song =  li.querySelectorAll('a')[1];
+      const songID = song.href.split('/').pop().split('.')[0];
       songs.push({
+        id: songID,
         name: song.textContent,
-        url: song.href
+        url: `http://www.17jita.com/tab/whole_${songID}.html`
       })
-    )
+    })
   return songs;
 }
 
@@ -81,10 +84,11 @@ const filterSongsList = html => {
 const crawlerTop100 = async url => {
   const html = await fetchDocument(url);
   const songs = filterSongsList(html);
-  songs.forEach(song => {
-    await crawlerSong(song.name, song.url)
-  })
-  debugger
+  for (let index = 0; index < 5; index++) {
+    const { name, url }  = songs[index];
+    const msg = await crawlerSong(name, url);
+    console.log('😄：' + msg + '【' + name + '】');
+  }
 }
 
 /**
@@ -95,17 +99,28 @@ const crawlerTop100 = async url => {
 const crawlerSong = async (name, url) => {
   const html = await fetchDocument(url);
   const imgs = filterImgUrl(html);
-  const baseUrl = `./spectrum/${name}`;
+  const baseUrl = `./spectrum/17jita/${name}`;
   if(!fs.existsSync(baseUrl)) {
     fs.mkdirSync(baseUrl);
   }
-  imgs.forEach((img, index) => {
-    request.head(img.url, (error, res, body) => {
-      if(error){
-        console.log('失败了')
-      }
-    });
-    request(img.url).pipe(fs.createWriteStream(`${baseUrl}/${img.name}_${index}.jpg`))
+  return new Promise((resolve, reject) => {
+    Promise.all(imgs.map((img, index) => crawlerImg(`${baseUrl}/${img.name}_${index}.jpg`, img.url)))
+      .then(value => resolve(value))
+      .catch(reason => reject(reason))
+  })
+}
+
+/**
+ * 爬取-指定图片
+ * @param {String} name 
+ * @param {String} url 
+ */
+const crawlerImg = async (name, url) => {
+  return new Promise((resolve, reject) => {
+    request(url)
+      .on('error', err => reject('🚑' + err))
+      .pipe(fs.createWriteStream(name));
+    resolve('☑️');
   })
 }
 
