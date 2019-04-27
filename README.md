@@ -39,6 +39,10 @@
 
 曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` 🤓
 
+- [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+
+- [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+
 <details>
 <summary>《光辉岁月》Beyond</summary>
 

@@ -50,7 +50,7 @@ const filterImgUrl = html => {
   new JSDOM(html).window.document.querySelectorAll('#article_contents img')
     .forEach(img =>
       imgs.push({
-        name: img.alt,
+        name: img.alt.replace(/\s/ig,'_'),
         url: img.src,
         modify: new Date().toISOString()
       })
@@ -64,13 +64,12 @@ const filterImgUrl = html => {
  */
 const filterSongsList = html => {
   let songs = new Array();
-  new JSDOM(html).window.document.querySelectorAll('#article_content ul li')
-    .forEach(li => {
-      const song =  li.querySelectorAll('a')[1];
+  new JSDOM(html).window.document.querySelectorAll('a')
+    .forEach(song => {
       const songID = song.href.split('/').pop().split('.')[0];
       songs.push({
         id: songID,
-        name: song.textContent,
+        name: song.textContent.replace(/\s/ig,'_'),
         url: `http://www.17jita.com/tab/whole_${songID}.html`
       })
     })
@@ -81,8 +80,8 @@ const filterSongsList = html => {
  * 爬取-Top100 曲谱集合并存储至指定文件夹
  * @param {String} url 
  */
-const crawlerTop100 = async url => {
-  const html = await fetchDocument(url);
+const crawlerClassic132 = async url => {
+  const html = fs.readFileSync('./spectrum/classic132.html', 'utf8');
   const songs = filterSongsList(html);
   for (let index = 0; index < 5; index++) {
     const { name, url }  = songs[index];
@@ -99,12 +98,12 @@ const crawlerTop100 = async url => {
 const crawlerSong = async (name, url) => {
   const html = await fetchDocument(url);
   const imgs = filterImgUrl(html);
-  const baseUrl = `./spectrum/17jita/${name}`;
-  if(!fs.existsSync(baseUrl)) {
-    fs.mkdirSync(baseUrl);
-  }
+  const baseUrl = `./spectrum/classic132`;
+  fs.existsSync(baseUrl) || fs.mkdirSync(baseUrl);
+  const path = `${baseUrl}/${name}`;
+  fs.existsSync(path) || fs.mkdirSync(path);
   return new Promise((resolve, reject) => {
-    Promise.all(imgs.map((img, index) => crawlerImg(`${baseUrl}/${img.name}_${index}.jpg`, img.url)))
+    Promise.all(imgs.map((img, index) => crawlerImg(`${path}/${img.name}_${index}.jpg`, img.url)))
       .then(value => resolve(value))
       .catch(reason => reject(reason))
   })
@@ -127,6 +126,6 @@ const crawlerImg = async (name, url) => {
 
 module.exports = {
   crawlerSong,
-  crawlerTop100
+  crawlerClassic132
 };
 

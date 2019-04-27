@@ -1,3 +1,4 @@
+const fs = require('fs');
 const sharp = require('sharp');
 
 /**
@@ -18,30 +19,51 @@ const generateBlank = (width, height) =>
     .toBuffer()
 
 /**
- * 函数-合成图片
- */ 
-const sharpImages = async () => {
-  const BLANL_LEFT = await generateBlank(600, 200);
-  const BLANL_RIGHT = await generateBlank(400, 240);
-  const BLANL_BOTTOM = await generateBlank(1860, 140);
-  sharp('sharp.jpg')
+ * 函数-合成指定图片
+ * @param {*} index 
+ * @param {*} base 
+ * @param {*} target 
+ */
+const sharpImage = async (index, base, target) => 
+  sharp(base)
     .threshold(210)
     .composite([{
-      input: BLANL_LEFT,
+      input: index != 0 ? await generateBlank(600, 130) : await generateBlank(600, 200),
       top: 0,
       left: 0,
     }, {
-      input: BLANL_RIGHT,
+      input: await generateBlank(400, 240),
       top: 0,
-      left: 1460 
+      left: 1460
     }, {
-      input: BLANL_BOTTOM,
+      input: await generateBlank(1860, 140),
       top: 2500,
       left: 0 
     }])
-    .toFile('sharp_m.png', (err, info) => {
-      console.log(err, info);
-    });
+    .toFile(target);
+
+/**
+ * 函数-处理整首歌曲
+ */ 
+const sharpSongs = async () => {
+  const baseUrl = `./spectrum/classic132`;
+  const targetUrl = `./spectrum/classic132_sharp`;
+  fs.existsSync(targetUrl) || fs.mkdirSync(targetUrl);
+  const songs = fs.readdirSync(baseUrl);
+  for (let index = 0; index < songs.length; index++) {
+    const song = songs[index];
+    const baseSongUrl = `${baseUrl}/${song}`;
+    const targetSongUrl = `${targetUrl}/${song}`;
+    fs.existsSync(targetSongUrl) || fs.mkdirSync(targetSongUrl);
+    const images = fs.readdirSync(baseSongUrl);
+    const info = await Promise.all(images.map((img, index)=> 
+      sharpImage(index, `${baseSongUrl}/${img}`, `${targetSongUrl}/${img}`)
+    ))
+    console.log('☑️: ' + song + '【' + info.length + '】')
+  }
 }
 
-module.exports = sharpImages;
+
+
+
+module.exports = sharpSongs;
