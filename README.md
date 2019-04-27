@@ -39,20 +39,6 @@
 
 曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` 🤓
 
-1. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-2. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-3. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-4. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-5. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-6. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-7. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-8. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-9. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-10. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-11. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-12. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-13. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
-
 <details>
 <summary>《光辉岁月》Beyond</summary>
 
@@ -190,4 +176,18 @@ X => 低音
 | 雅马哈 TGS-123 | :star: :star: :star: :star: | :heavy_dollar_sign: 1100 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 | 卡玛 TW-88 | :star: :star: :star: | :heavy_dollar_sign: 500 | [:shopping_cart:](https://www.guitarhub.cn/shop/category?id=jjds922) |
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2e5131ae-d190-41b7-b8d9-a879575487f3/deploy-status)](https://app.netlify.com/sites/guitar-hub/deploys)
+## 📚 经典 132 首
+
+1. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+2. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+3. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+4. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+5. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+6. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+7. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+8. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+9. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+10. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+11. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+12. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
+13. [田馥甄_小幸运](./spectrum/classic132_sharp/田馥甄_小幸运)
