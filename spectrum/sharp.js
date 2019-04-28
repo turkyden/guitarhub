@@ -46,31 +46,31 @@ const sharpImage = async (pageIndex, base, target) => {
         top: 0,
         left: 0,
       }, {
-        input: pageIndex != 0 ? await generateBlank(400, 100) : await generateBlank(400, 240),
+        input: pageIndex != 0 ? await generateBlank(400, 100) : await generateBlank(420, 240),
         top: 0,
         left: 1460
       }, {
-        input: await generateBlank(1860, 141),
-        top: 2490,
+        input: await generateBlank(1860, 150),
+        top: 2481,
         left: 0 
       }])
       .toFile(target)
   } else if(_.isEqual(size, sharp2)) {
     return sharp(base)
       .threshold(210)
-      // .composite([{
-      //   input: pageIndex != 0 ? await generateBlank(600, 130) : await generateBlank(600, 200),
-      //   top: 0,
-      //   left: 0,
-      // }, {
-      //   input: await generateBlank(400, 240),
-      //   top: 0,
-      //   left: 1460
-      // }, {
-      //   input: await generateBlank(1860, 131),
-      //   top: 2500,
-      //   left: 0 
-      // }])
+      .composite([{
+        input: pageIndex != 0 ? await generateBlank(170, 170) : await generateBlank(340, 170),
+        top: 0,
+        left: 0,
+      }, {
+        input: pageIndex != 0 ? await generateBlank(620, 120) : await generateBlank(620, 170),
+        top: 0,
+        left: 1164
+      }, {
+        input: await generateBlank(1785, 130),
+        top: 2395,
+        left: 0 
+      }])
       .toFile(target)
   } else {
     console.log('没有对应的处理模板')
