@@ -31,7 +31,7 @@ const fetchDocument = url =>
       res.on('data', chunk => { html += chunk; });
       res.on('end', () => {
         try {
-          resolve(iconv.decode(new Buffer(html, 'binary'), 'GBK'));
+          resolve(iconv.decode(Buffer.from(html, 'binary'), 'GBK'));
         } catch (e) {
           reject(e.message);
         }
@@ -78,12 +78,11 @@ const filterSongsList = html => {
 
 /**
  * 爬取-Top100 曲谱集合并存储至指定文件夹
- * @param {String} url 
  */
-const crawlerClassic132 = async url => {
+const crawlerClassic132 = async () => {
   const html = fs.readFileSync('./spectrum/classic132.html', 'utf8');
   const songs = filterSongsList(html);
-  for (let index = 0; index < 5; index++) {
+  for (let index = 0; index < songs.length; index++) {
     const { name, url }  = songs[index];
     const msg = await crawlerSong(name, url);
     console.log('😄：' + msg + '【' + name + '】');
@@ -105,7 +104,7 @@ const crawlerSong = async (name, url) => {
   return new Promise((resolve, reject) => {
     Promise.all(imgs.map((img, index) => crawlerImg(`${path}/${img.name}_${index}.jpg`, img.url)))
       .then(value => resolve(value))
-      .catch(reason => reject(reason))
+      .catch(reason => reject('🚑' + reason))
   })
 }
 
@@ -117,9 +116,12 @@ const crawlerSong = async (name, url) => {
 const crawlerImg = async (name, url) => {
   return new Promise((resolve, reject) => {
     request(url)
-      .on('error', err => reject('🚑' + err))
-      .pipe(fs.createWriteStream(name));
-    resolve('☑️');
+      .on('error', err => reject('❎' + err.stack))
+      .pipe(
+        fs.createWriteStream(name)
+          .on('finish', () => resolve('☑️'))
+          .on('error', err => reject('❎' + err.stack))
+      );
   })
 }
 
