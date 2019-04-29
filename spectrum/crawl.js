@@ -3,6 +3,7 @@ const request = require('request');
 const fs = require('fs');
 const iconv = require('iconv-lite');
 const jsdom = require("jsdom");
+const del = require('del');
 
 const { JSDOM } = jsdom;
 
@@ -82,6 +83,11 @@ const filterSongsList = html => {
 const crawlerClassic132 = async () => {
   const html = fs.readFileSync('./spectrum/classic132.html', 'utf8');
   const songs = filterSongsList(html);
+  const baseUrl = `./spectrum/classic132`;
+  if(fs.existsSync(baseUrl)) {
+    del.sync([baseUrl])
+  }
+  fs.mkdirSync(baseUrl);
   for (let index = 0; index < songs.length; index++) {
     const { name, url }  = songs[index];
     const msg = await crawlerSong(name, url);
@@ -97,12 +103,10 @@ const crawlerClassic132 = async () => {
 const crawlerSong = async (name, url) => {
   const html = await fetchDocument(url);
   const imgs = filterImgUrl(html);
-  const baseUrl = `./spectrum/classic132`;
-  fs.existsSync(baseUrl) || fs.mkdirSync(baseUrl);
-  const path = `${baseUrl}/${name}`;
-  fs.existsSync(path) || fs.mkdirSync(path);
+  const song = `./spectrum/classic132/${name}`;
+  fs.existsSync(song) || fs.mkdirSync(song);
   return new Promise((resolve, reject) => {
-    Promise.all(imgs.map((img, index) => crawlerImg(`${path}/${img.name}_${index}.jpg`, img.url)))
+    Promise.all(imgs.map((img, index) => crawlerImg(`${song}/${img.name}_${index}.jpg`, img.url)))
       .then(value => resolve(value))
       .catch(reason => reject('🚑' + reason))
   })

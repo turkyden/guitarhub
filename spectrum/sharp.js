@@ -1,4 +1,5 @@
 const fs = require('fs');
+const del = require('del');
 const sharp = require('sharp');
 const PDFDocument = require('pdfkit');
 const log4js = require('log4js');
@@ -10,7 +11,7 @@ log4js.configure({
     cheese: { type: 'file', filename: './spectrum/cheese.log' },
   },
   categories: { 
-    default: { appenders: ['cheese'], level: 'trace' } 
+    default: { appenders: ['cheese'], level: 'error' } 
   }
 })
 
@@ -127,13 +128,16 @@ const savePDF = async (targetSongUrl) => {
 const sharpSongs = async () => {
   const baseUrl = `./spectrum/classic132`;
   const targetUrl = `./spectrum/classic132_sharp`;
-  fs.existsSync(targetUrl) || fs.mkdirSync(targetUrl);
+  if(fs.existsSync(targetUrl)) {
+    del.sync([targetUrl])
+  }
+  fs.mkdirSync(targetUrl);
   const songs = fs.readdirSync(baseUrl);
   for (let index = 0; index < 5; index++) {
     const song = songs[index];
     const baseSongUrl = `${baseUrl}/${song}`;
     const targetSongUrl = `${targetUrl}/${song}`;
-    fs.existsSync(targetSongUrl) || fs.mkdirSync(targetSongUrl);
+    fs.mkdirSync(targetSongUrl);
     const images = fs.readdirSync(baseSongUrl);
     const info = await Promise.all(images.map((img, index) => 
       sharpImage(index, `${baseSongUrl}/${img}`, `${targetSongUrl}/${img}`)
