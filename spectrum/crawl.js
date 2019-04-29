@@ -125,9 +125,5 @@ const crawlerImg = async (name, url) => {
   })
 }
 
-
-module.exports = {
-  crawlerSong,
-  crawlerClassic132
-};
+crawlerClassic132();
 
