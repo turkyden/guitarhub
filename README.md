@@ -24,6 +24,13 @@
 
 教学视频合辑定期同步在 **网易云音乐噢** 和 **Youtube**
 
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+  <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
+  <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
+  <p>Your user agent does not support the HTML5 Video element.</p>
+</video>
+
 - [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
 - [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
 - [x] [《胆小鬼》俊采教你玩吉他，梁咏琪经典老歌，暖暖的春天要来了](https://music.163.com/#/video?id=571217DC959AFC861EF153D9C6321978)
@@ -37,7 +44,7 @@
 
 ## 🎼 曲谱
 
-曲谱资源托管于 **新浪图床** ，海量征集中，欢迎各位大佬 `PR` 🤓
+曲谱资源开源托管于 **GuitarHub** ，海量征集中，欢迎各位大佬 `PR` 🤓
 
 <details>
 <summary>《光辉岁月》Beyond</summary>
@@ -168,7 +175,7 @@ X => 低音
 
 ## 📚 经典 132 首
 
-吉他手必须掌握的曲目，在年会，酒吧，地铁站 `solo`，就对够用 :)
+吉他手必须掌握的曲目，聚餐，年会，酒吧，地铁站 `solo`，就对够用 :)
 
 1. [beyond_Amani](./spectrum/classic132_sharp/beyond_Amani)
 2. [beyond_不再犹豫](./spectrum/classic132_sharp/beyond_不再犹豫)

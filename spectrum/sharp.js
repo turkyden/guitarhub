@@ -154,9 +154,9 @@ const sharpSongs = async () => {
     info.length > 0 ? savePDF(targetSongUrl, song) : console.log('🚑', info);
   }
   // 输出 md 文档
-  const markdown_songs = songs.map((song, index) => `${index+1}. [${song}](${targetUrl}/${song})\r\n`).reduce((p, v) => p + v);
-  const markdown = `# GuitarHub\r\n\r\n${markdown_songs}`;
-  fs.writeFile(`./GuitarHub.md`, markdown, 'utf8', err => console.log('🚑', err));
+  const markdown_songs = songs.map((song, index) => `${index+1}. [${song}](./${song}/README.md)\r\n`).reduce((p, v) => p + v);
+  const markdown = `# 经典 132 首\r\n\r\n${markdown_songs}`;
+  fs.writeFile(`${targetUrl}/README.md`, markdown, 'utf8', err => console.log('🚑', err));
 }
 
 sharpSongs();
