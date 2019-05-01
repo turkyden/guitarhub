@@ -108,18 +108,27 @@ const sharpImage = async (pageIndex, base, target) => {
 
 /**
  * 函数-保存成 PDF 文件
- * @param {String} targetSongUrl 
+ * @param {String} path 图片地址
+ * @param {String} fileName pdf 文件名称
  */
-const savePDF = async (targetSongUrl) => {
-  const images = fs.readdirSync(targetSongUrl);
-  const fileName = images[0].split('.')[0];
+const savePDF = (path, fileName) => {
+  const images = fs.readdirSync(path);
   const doc = new PDFDocument({ autoFirstPage: false });
-  doc.pipe(fs.createWriteStream(`${targetSongUrl}/${fileName}.pdf`));
+  doc.pipe(fs.createWriteStream(`${path}/${fileName}.pdf`));
   images.forEach(img => {
     doc.addPage()
-    .image(`${targetSongUrl}/${img}`, 0, 0, { fit: [612.00, 792.00], align: 'center', valign: 'center' })
+    .image(`${path}/${img}`, 0, 0, { fit: [612.00, 792.00], align: 'center', valign: 'center' })
   })
   doc.end();
+
+  // 输出 md 文档
+  const markdown_images = images.map(img => `![${img.split('.')[0]}](./${img})\r\n`).reduce((p, v) => p + v);
+  const markdown = `# GuitarHub\r\n\r\n${markdown_images}`;
+  fs.writeFile(`${path}/README.md`, markdown, 'utf8', err => console.log('🚑', err));
+}
+
+const saveMarkdown = () => {
+
 }
 
 /**
@@ -142,8 +151,12 @@ const sharpSongs = async () => {
     const info = await Promise.all(images.map((img, index) => 
       sharpImage(index, `${baseSongUrl}/${img}`, `${targetSongUrl}/${img}`)
     ))
-    info.length > 0 ? savePDF(targetSongUrl) : console.log('🚑', info);
+    info.length > 0 ? savePDF(targetSongUrl, song) : console.log('🚑', info);
   }
+  // 输出 md 文档
+  const markdown_songs = songs.map(song => `- [x] [${song}](${targetUrl}/${song}/README.md)\r\n`).reduce((p, v) => p + v);
+  const markdown = `# GuitarHub\r\n\r\n${markdown_songs}`;
+  fs.writeFile(`./GuitarHub.md`, markdown, 'utf8', err => console.log('🚑', err));
 }
 
 sharpSongs();
