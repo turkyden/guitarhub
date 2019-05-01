@@ -24,12 +24,7 @@
 
 教学视频合辑定期同步在 **网易云音乐噢** 和 **Youtube**
 
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-  <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
-  <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-  <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
+<iframe height=498 width=510 src="http://lxqncdn.miaopai.com/stream/BvmaXK2X49guVi4ehlOjjQ__.mp4" frameborder=0 allowfullscreen></iframe>
 
 - [x] [《如果当时》俊采带你玩吉他，手把手教你弹唱经典中国风](https://music.163.com/#/video?id=9B6127355C9BE6DACEB3CED271D7BB9F)
 - [x] [《如果有来生》俊采带你玩吉他，孤独的岁月里学会自嗨](https://music.163.com/#/video?id=3271426FA7BDEB53EAE687493E3FCB4B)
