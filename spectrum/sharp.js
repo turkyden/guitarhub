@@ -127,10 +127,6 @@ const savePDF = (path, fileName) => {
   fs.writeFile(`${path}/README.md`, markdown, 'utf8', err => console.log('🚑', err));
 }
 
-const saveMarkdown = () => {
-
-}
-
 /**
  * 函数-图像处理歌曲队列
  */ 
@@ -142,7 +138,7 @@ const sharpSongs = async () => {
   }
   fs.mkdirSync(targetUrl);
   const songs = fs.readdirSync(baseUrl);
-  for (let index = 0; index < 5; index++) {
+  for (let index = 0; index < songs.length; index++) {
     const song = songs[index];
     const baseSongUrl = `${baseUrl}/${song}`;
     const targetSongUrl = `${targetUrl}/${song}`;
