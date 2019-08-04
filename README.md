@@ -302,3 +302,7 @@ X => 低音
 130. [齐秦_夜夜夜夜](./spectrum/classic132_sharp/齐秦_夜夜夜夜)
 131. [齐秦_大约在冬季](./spectrum/classic132_sharp/齐秦_大约在冬季)
 132. [齐秦_张三的歌](./spectrum/classic132_sharp/齐秦_张三的歌)
+
+## 卡农
+
+![卡农](http://data.17jita.com/attachment/portal/201608/30/104259ew6nrf28gewhrra6.png)
