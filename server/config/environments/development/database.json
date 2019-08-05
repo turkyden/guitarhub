@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "database": "guitarhub",
+        "host": "127.0.0.1",
+        "srv": false,
+        "port": 27017,
+        "username": "",
+        "password": ""
+      },
+      "options": {
+        "authenticationDatabase": ""
+      }
+    }
+  }
+}
