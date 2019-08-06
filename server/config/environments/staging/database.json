@@ -2,8 +2,9 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
+      "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "sqlite",
+        "client": "mysql",
         "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
         "port": "${process.env.DATABASE_PORT || 27017}",
         "srv": "${process.env.DATABASE_SRV || false}",

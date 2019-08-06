@@ -4,12 +4,14 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "sqlite",
-        "filename": ".tmp/data.db"
+        "client": "mysql",
+        "database": "guitarhub_dev",
+        "host": "cdb-gro1u0ju.bj.tencentcdb.com",
+        "port": "10156",
+        "username": "root",
+        "password": "wued@2019"
       },
-      "options": {
-        "useNullAsDefault": true
-      }
+      "options": {}
     }
   }
 }
