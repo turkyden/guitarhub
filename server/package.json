@@ -32,11 +32,11 @@
     "strapi-plugin-settings-manager": "3.0.0-beta.14",
     "strapi-plugin-upload": "3.0.0-beta.14",
     "strapi-plugin-users-permissions": "3.0.0-beta.14",
-    "strapi-provider-upload-tencent": "^3.0.0-beta",
+    "strapi-provider-upload-tencent": "^3.0.0-beta.14",
     "strapi-utils": "3.0.0-beta.14"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Turkyden"
   },
   "strapi": {
     "uuid": "64b46d6c-e307-45d5-bac7-6e326714fa3d"
