@@ -1,4 +1,4 @@
- # GuitarHub
+# GuitarHub
 
 A fullstack application deved for guitarhub.
 
@@ -11,7 +11,7 @@ A fullstack application deved for guitarhub.
   - [x] Tencent Upload COD
   - [x] Tencent MySQL CDB
 - [x] Gatzby
-- [ ] [primer styles](https://primer.style/)
+- [ ] [primer styles](https://primer.style/) + Figma
 - [ ] Shop - TaoBao
 - [ ] Stick
 - [ ] Print - VIP 打印
