@@ -43,7 +43,7 @@ class Restaurants extends React.Component {
           <h1>{restaurant.name}</h1>
           <Row>
             <Col xs="9" style={{ padding: 0 }}>
-              <div style={{ display: "inline-block" }} className="h-100">
+              <div style={{ display: "inline-block" }} className="w-100">
                 {restaurant.dishes.map(res => (
                   <Card
                     style={{ width: "30%", margin: "0 10px" }}

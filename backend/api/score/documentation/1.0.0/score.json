@@ -511,8 +511,7 @@
       "Score": {
         "required": [
           "id",
-          "name",
-          "sources"
+          "name"
         ],
         "properties": {
           "id": {
@@ -524,55 +523,6 @@
           "stars": {
             "type": "integer",
             "default": "1000"
-          },
-          "sources": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "sha256": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "public_id": {
-                  "type": "string"
-                },
-                "related": {
-                  "type": "string"
-                }
-              }
-            }
           },
           "singer": {
             "required": [
@@ -624,6 +574,9 @@
                 }
               }
             }
+          },
+          "sources": {
+            "type": "string"
           }
         }
       },
@@ -647,6 +600,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "sources": {
+            "type": "string"
           }
         }
       }

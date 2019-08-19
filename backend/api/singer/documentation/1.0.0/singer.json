@@ -529,8 +529,7 @@
             "items": {
               "required": [
                 "id",
-                "name",
-                "sources"
+                "name"
               ],
               "properties": {
                 "id": {
@@ -542,12 +541,6 @@
                 "stars": {
                   "type": "integer"
                 },
-                "sources": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "singer": {
                   "type": "string"
                 },
@@ -556,6 +549,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "sources": {
+                  "type": "string"
                 }
               }
             }

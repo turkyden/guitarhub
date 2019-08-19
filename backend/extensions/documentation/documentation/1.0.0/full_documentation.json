@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/19/2019 10:30:32 AM"
+    "x-generation-date": "08/20/2019 5:56:14 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5164,8 +5164,7 @@
             "items": {
               "required": [
                 "id",
-                "name",
-                "sources"
+                "name"
               ],
               "properties": {
                 "id": {
@@ -5177,12 +5176,6 @@
                 "stars": {
                   "type": "integer"
                 },
-                "sources": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "singer": {
                   "type": "string"
                 },
@@ -5191,6 +5184,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "sources": {
+                  "type": "string"
                 }
               }
             }
@@ -5470,8 +5466,7 @@
       "Score": {
         "required": [
           "id",
-          "name",
-          "sources"
+          "name"
         ],
         "properties": {
           "id": {
@@ -5483,55 +5478,6 @@
           "stars": {
             "type": "integer",
             "default": "1000"
-          },
-          "sources": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "sha256": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "public_id": {
-                  "type": "string"
-                },
-                "related": {
-                  "type": "string"
-                }
-              }
-            }
           },
           "singer": {
             "required": [
@@ -5583,6 +5529,9 @@
                 }
               }
             }
+          },
+          "sources": {
+            "type": "string"
           }
         }
       },
@@ -5606,6 +5555,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "sources": {
+            "type": "string"
           }
         }
       },
@@ -5630,8 +5582,7 @@
             "items": {
               "required": [
                 "id",
-                "name",
-                "sources"
+                "name"
               ],
               "properties": {
                 "id": {
@@ -5643,12 +5594,6 @@
                 "stars": {
                   "type": "integer"
                 },
-                "sources": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
                 "singer": {
                   "type": "string"
                 },
@@ -5657,6 +5602,9 @@
                   "items": {
                     "type": "string"
                   }
+                },
+                "sources": {
+                  "type": "string"
                 }
               }
             }
