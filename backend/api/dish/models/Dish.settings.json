@@ -3,7 +3,7 @@
   "collectionName": "dishes",
   "info": {
     "name": "dish",
-    "description": "各大菜系1"
+    "description": "The dish of restaurant."
   },
   "options": {
     "increments": true,

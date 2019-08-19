@@ -3,7 +3,7 @@
   "collectionName": "orders",
   "info": {
     "name": "order",
-    "description": "订单1"
+    "description": "The order ralation between restaurant and dish."
   },
   "options": {
     "increments": true,

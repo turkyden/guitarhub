@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "albums",
+  "info": {
+    "name": "album",
+    "description": "The album of music scores."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "desc": {
+      "required": true,
+      "type": "text"
+    },
+    "scores": {
+      "collection": "score",
+      "dominant": true,
+      "via": "albums"
+    }
+  }
+}

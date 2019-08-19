@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "singers",
+  "info": {
+    "name": "singer",
+    "description": "The singer of score."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "desc": {
+      "required": true,
+      "type": "text"
+    },
+    "scores": {
+      "collection": "score",
+      "via": "singer"
+    }
+  }
+}

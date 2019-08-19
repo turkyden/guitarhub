@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "scores",
+  "info": {
+    "name": "score",
+    "description": "The resources of music score."
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "stars": {
+      "type": "integer",
+      "default": "1000"
+    },
+    "sources": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "singer": {
+      "model": "singer",
+      "via": "scores"
+    },
+    "albums": {
+      "collection": "album",
+      "via": "scores"
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "collectionName": "restaurants",
   "info": {
     "name": "restaurant",
-    "description": "餐厅1"
+    "description": "The all of restaurant."
   },
   "options": {
     "increments": true,
