@@ -34,7 +34,7 @@
     "react-scroll": "^1.7.11",
     "react-typography": "^0.16.19",
     "request": "^2.88.0",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "typography": "^0.16.19",
     "typography-theme-github": "^0.16.19",
     "typography-theme-irving": "^0.16.19"
